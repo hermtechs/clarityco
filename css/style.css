@@ -333,7 +333,7 @@ a:focus {
 }
 
 .header .hero .form select option:not(:checked) {
-    color: #666666;
+    color: #777777;
 }
 
 .header .hero .form .btn {
@@ -460,7 +460,7 @@ a:focus {
 .section-header.left::before {
     width: 60px;
     left: 0;
-    background: linear-gradient(to left, #5bed98;, #2A4765, #2A4765);
+    background: linear-gradient(to left, #5bed98, #2A4765, #2A4765);
     border-radius: 0 100% 100% 0;
 }
 
