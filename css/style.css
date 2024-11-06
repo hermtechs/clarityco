@@ -2,9 +2,10 @@
 /********* General CSS *********/
 /*******************************/
 body {
-    color: #666666;
+    color: #686666;
     background: #ffffff;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
 
