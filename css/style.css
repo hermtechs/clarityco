@@ -92,7 +92,7 @@ a:focus {
 
 .header.home {
     margin-bottom: 45px;
-    background: linear-gradient(#02223e, #031c32e6, #053661), url(../img/glass-cleaning-bg.jpg);
+    background: linear-gradient(#083965, #104471e6, #053661), url(../img/glass-cleaning-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -544,20 +544,36 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
+    justify-content: center;
 }
 .service .service-item {
     position: relative;
     width: 100%;
+    min-width: 300px;
     text-align: center;
     background: #ffffff;
     border-radius: 5px;
     margin-bottom: 30px;
     box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    height: 100%;
 }
 
 .service .service-item img {
     width: 100%;
+    object-fit: cover;
+    height: 100%;
+    max-height: 300px;
     border-radius: 5px 5px 0 0;
+}
+@media(min-width:1000px){
+    .service .service-item{
+        min-width: 350px;
+        /* max-height: 500px; */
+    }
+    .service-item img {
+        min-width: 350px;
+        /* max-height: 700px; */
+    }
 }
 
 .service .service-item h3 {
