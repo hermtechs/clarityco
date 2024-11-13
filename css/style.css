@@ -8,6 +8,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 h1,
 h2, 
@@ -21,6 +24,12 @@ h6 {
 a {
     color: #454545;
     transition: .3s;
+}
+#my-form-status{
+    text-align: center;
+    background-color: #cce5ff;
+    /* border: 1px solid #b8daff; */
+    border-radius: 0.2rem;
 }
 
 a:hover,
@@ -527,12 +536,15 @@ a:focus {
 /*******************************/
 /********* Service CSS *********/
 /*******************************/
+.service-item-wrapper{
+    max-width: 500px;
+    width:100%;
+}
 .service {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
 }
-
 .service .service-item {
     position: relative;
     width: 100%;
