@@ -85,12 +85,12 @@
                                 <h3>Get A Quote</h3>
                                 <form id="my-form" class="contact-form" action="https://formspree.io/f/mwpkbrkl" method="POST">
                                     <input type="text" name="REQUEST QUOTE" style="display:none ;">
-                                    <input class="form-control" type="text" placeholder="Your Name" name="name">
-                                    <input class="form-control" type="text" placeholder="Mobile Number" name="phone">
-                                    <input class="form-control" name="email" type="email" placeholder="Email">
+                                    <input class="form-control" type="text" required placeholder="Your Name" name="name">
+                                    <input class="form-control" type="text" required placeholder="Mobile Number" name="phone">
+                                    <input class="form-control" name="email" required type="email" placeholder="Email">
                                     <div class="control-group">
                                         <select class="custom-select" id="service" name="service">
-                                            <option selected>Choose a service</option>
+                                            <option selected aria-required="true">Choose a service</option>
                                             <option value="window cleaning">Window Cleaning</option>
                                             <option value="Pressure washing">Pressure Washing</option>
                                             <option value="Carpet Cleaning">Carpet Cleaning</option>
