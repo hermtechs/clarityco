@@ -1021,9 +1021,9 @@ a:focus {
 
 .price .price-action a:hover {
     color: #ffffff;
-    background: #f8860c
-
-transform: scale(1.03);}
+    background: #f8860c;
+    transform: scale(1.03);
+}
 
 .price .featured-item .price-action a {
     color: #ffffff;
@@ -1257,6 +1257,7 @@ transform: scale(1.03);}
     margin: 45px 0;
     padding: 60px 0;
     background: #2211b9;
+    background: linear-gradient(to left, #1d25b9, #050584);
 }
 
 .call-to-action h2 {
@@ -1791,6 +1792,7 @@ transform: scale(1.03);}
     margin-top: 45px;
     padding-top: 90px;
     background: #2211b9;
+    background: linear-gradient(to left, #1a21ac, #050584);
     color: #ffffff;
     font-weight: 300;
 }
