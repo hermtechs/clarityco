@@ -249,13 +249,15 @@ a:focus {
     border: none;
     border-radius: 5px;
     background: #f5932b;
-    transition: .3s;
+    transition: 200ms ease;
     font-weight: bold;
 }
 
 .header .navbar .btn:hover {
     color: #ffff;
-    background: #f5932b;
+    background: #ed891f;
+    opacity: 0.9;
+    transform: scale(1.02);
 }
 
 .header .navbar .btn i {
@@ -304,7 +306,8 @@ a:focus {
     border: none;
     border-radius: 5px;
     background: #ffffff;
-    transition: .3s;
+    background: linear-gradient(#b46715,#ecb309);
+    transition: 100ms ease-in;
 }
 
 .header .hero a.btn:hover {
@@ -357,12 +360,14 @@ a:focus {
     border: none;
     border-radius: 5px;
     background: #f5932b;
-    transition: .3s;
+    transition: 200ms ease-in;
 }
 
 .header .hero .form .btn:hover {
-    color: #2211b9;
-    background: #ffffff;
+    background: #fea240;
+    color: #ffff;
+    opacity: 0.96;
+    scale: 1.03;
 }
 
 @media (max-width: 767.98px) {
@@ -460,7 +465,10 @@ a:focus {
 }
 
 .section-header h2 {
-    color: #2211b9;
+    color: #0909aa;
+    background: linear-gradient(90deg, #0909aa, orange);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
     font-size: 50px;
     font-weight: 100;
 }
@@ -498,13 +506,19 @@ a:focus {
 
 .about .about-text h2 {
     position: relative;
-    color: #2211b9;
-    font-size: 50px;
+    color: #0909aa;
+    background: linear-gradient(90deg, #0909aa, orange);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+    font-size: 5rem;
     margin-bottom: 15px;
 }
 
 .about .about-text h2 span {
-    font-size: 120px;
+    font-size: 6rem;
+    background: linear-gradient(90deg, darkblue, orange);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
 }
 
 .about .about-text p {
@@ -519,15 +533,15 @@ a:focus {
     color: #ffff;
     border: none;
     border-radius: 5px;
-    background: #f5932b;
-    transition: .3s;
+    background: linear-gradient(#b46715,#ecb309);
+    transition: 100ms ease-in;
 }
 
 .about .about-text a.btn:hover {
     color: #ffffff;
-    background: #f8860c;
-    transform: scale(1.03);
-}
+    color: #ffff;
+    opacity: 0.8;
+    transform: scale(1.02);}
 
 @media (max-width: 767.98px) {
     .about .about-img img {
@@ -585,8 +599,12 @@ a:focus {
     margin: 0;
     padding: 25px 15px 15px 15px;
     font-size: 20px;
-    font-weight: 300;
-    color: #2211b9;
+    font-weight: bold;
+    color: #0909aa;
+    background: linear-gradient(90deg, #0909aa, #bc9404);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
 }
 
 .service .service-item p {
@@ -605,19 +623,19 @@ a:focus {
     color: #ffff;
     border: none;
     border-radius: 5px;
-    background: #f5932b;
-    transition: .3s;
+    background: linear-gradient(#b46715,#ecb309);
+    transition: 100ms ease-in;
 }
 
-.service .service-item:hover a.btn {
+/* .service .service-item:hover a.btn {
     color: #ffffff;
-    background: #f8860c;
-    transform: scale(1.03);
-}
+   opacity: 0.8;
+} */
 
 .service .service-item a.btn:hover {
-    color: #ffff;
-    background: #f5932b;
+    color: #ffff; 
+    opacity: 0.7;
+    transform: scale(1.02);
 }
 
 
@@ -639,17 +657,16 @@ a:focus {
     padding: 15px 35px;
     font-size: 16px;
     text-transform: uppercase;
-    color: #000000;
+    color: #ffff;
     border: none;
     border-radius: 5px;
-    background: #f5932b;
-    transition: .3s;
+    background: linear-gradient(#b46715,#ecb309);
+    transition: 100ms ease-in;
 }
-
 .feature a.btn:hover {
-    color: #ffffff;
-    background: #f8860c;
-    transform: scale(1.03);
+    color: #ffff;
+    opacity: 0.8;
+    transform: scale(1.02);
 }
 
 .feature .feature-item {
@@ -887,12 +904,13 @@ a:focus {
     border-radius: 5px;
     background: #f5932b;
     transition: .3s;
+    background: linear-gradient(#b46715,#ecb309);
+    transition: 100ms ease-in;
 }
 
 .faqs a.btn:hover {
-    color: #ffffff;
-    background: #ad5d07;
-    transform: scale(1.03);
+    color: #ffff;
+    opacity: .8;
 }
 
 
@@ -1216,8 +1234,8 @@ transform: scale(1.03);}
     color: #000000;
     border: none;
     border-radius: 5px;
-    background: #f5932b;
-    transition: .3s;
+    background: linear-gradient(#b46715,#ecb309);
+    transition: 100ms ease-in;
 }
 
 .blog .blog-item:hover a.btn {
@@ -1265,11 +1283,13 @@ transform: scale(1.03);}
     color: #ffff;
     background: #f5932b;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .call-to-action a:hover {
-    color: #f5932b;
-    background: #ffffff;
+    color: #ffff;
+    opacity: 0.98;
+    transform: scale(1.02);
 }
 
 @media (max-width: 768px) {
