@@ -497,7 +497,8 @@ a:focus {
 .about {
     position: relative;
     width: 100%;
-    padding: 45px 0;
+    /* padding: 45px 0; */
+    padding: 0.8rem 1rem;
 }
 
 .about .about-img img {
@@ -525,6 +526,7 @@ a:focus {
 .about .about-text p {
     font-size: 16px;
     margin-bottom: 30px;
+
 }
 
 .about .about-text a.btn {
@@ -570,6 +572,9 @@ a:focus {
     .about-us-page-container .about-img img{
         max-width: 350px;
         height: auto;
+    }
+    .get-estimate-cta{
+        max-width:250px ;
     }
 }
 .about-us-page-container{
