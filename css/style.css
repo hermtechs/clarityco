@@ -7,6 +7,7 @@ body {
     /* font-family: 'Montserrat', sans-serif; */
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
+    overflow: hidden;
 }
 html{
     scroll-behavior: smooth;
@@ -563,7 +564,7 @@ a:focus {
     max-height: 450px;
     width: 100%;
     margin: 1rem;
-    object-fit: fill;
+    /* object-fit: fill; */
 }
 .about-us-page-container{
      background: #ffff;
@@ -581,6 +582,7 @@ a:focus {
 .get-estimate-cta{
     background: #d99007;
     max-width: 500px;
+    width: 100%;
     text-transform: uppercase;
     color: #ffff;
     justify-self: center;
@@ -590,6 +592,7 @@ a:focus {
     font-weight: bolder;
     padding: 0.7rem 2rem;
     outline: none;
+    margin: 1rem;
 }
 .get-estimate-cta:hover{
     color: #ffff;
