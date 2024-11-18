@@ -7,7 +7,6 @@ body {
     /* font-family: 'Montserrat', sans-serif; */
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    overflow: hidden;
 }
 html{
     scroll-behavior: smooth;
@@ -564,7 +563,14 @@ a:focus {
     max-height: 450px;
     width: 100%;
     margin: 1rem;
+    
     /* object-fit: fill; */
+}
+@media(max-width:600px){
+    .about-us-page-container .about-img img{
+        max-width: 350px;
+        height: auto;
+    }
 }
 .about-us-page-container{
      background: #ffff;
@@ -636,11 +642,11 @@ a:focus {
 }
 @media(min-width:1000px){
     .service .service-item{
-        min-width: 350px;
+        min-width: 340px;
         /* max-height: 500px; */
     }
     .service-item img {
-        min-width: 350px;
+        min-width: 340px;
         /* max-height: 700px; */
     }
 }
