@@ -578,7 +578,24 @@ a:focus {
 .about-us-page-body{
     background: #eeeeee;
 }
-
+.get-estimate-cta{
+    background: #d99007;
+    max-width: 500px;
+    text-transform: uppercase;
+    color: #ffff;
+    justify-self: center;
+    border-radius: 0;
+    cursor: pointer;
+    transition: 50ms ease-in;
+    font-weight: bolder;
+    padding: 0.7rem 2rem;
+    outline: none;
+}
+.get-estimate-cta:hover{
+    color: #ffff;
+    transform: scale(1.02);
+    opacity: 0.98;
+}
 
 /*******************************/
 /********* Service CSS *********/
