@@ -360,11 +360,12 @@ a:focus {
     border: none;
     border-radius: 5px;
     background: #f5932b;
+    background: linear-gradient(#b46715, #ecb309);
     transition: 200ms ease-in;
 }
 
 .header .hero .form .btn:hover {
-    background: #fea240;
+    /* background: #fea240; */
     color: #ffff;
     opacity: 0.96;
     scale: 1.03;
@@ -548,6 +549,35 @@ a:focus {
         margin-bottom: 30px;
     }
 }
+.about-us-page-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+.about-us-page-container .about-img img{
+    all: unset;
+    max-width: 700px;
+    max-height: 450px;
+    width: 100%;
+    margin: 1rem;
+    object-fit: fill;
+}
+.about-us-page-container{
+     background: #ffff;
+     margin-top: 1rem;
+}
+.about-us-page-container .about-text h3{
+    background: linear-gradient(90deg, #050552, #d99007);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+    font-weight: bolder;        
+}
+.about-us-page-body{
+    background: #eeeeee;
+}
 
 
 /*******************************/
@@ -612,7 +642,6 @@ a:focus {
     padding: 0 25px 25px 25px;
     font-size: 16px;
 }
-
 
 .service .service-item a.btn {
     position: relative;
@@ -1283,8 +1312,10 @@ a:focus {
     text-transform: uppercase;
     color: #ffff;
     background: #f5932b;
+    background: linear-gradient(#b46715, #ecb309);
     border-radius: 5px;
     font-weight: bold;
+    border: none;
 }
 
 .call-to-action a:hover {
@@ -1742,6 +1773,7 @@ a:focus {
     font-size: 18px;
     text-transform: uppercase;
     background: #f5932b;
+    background: linear-gradient(#b46715, #ecb309);
     border-radius: 5px;
     transition: .3s;
 }
