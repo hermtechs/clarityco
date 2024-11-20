@@ -25,6 +25,7 @@ a {
     color: #454545;
     transition: .3s;
 }
+
 #my-form-status{
     text-align: center;
     background-color: #cce5ff;
@@ -1185,14 +1186,21 @@ a:focus {
     margin-top: -90px;
     padding: 100px 25px 25px 25px;
     text-align: center;
-    background: #f5932b;
+    background: linear-gradient(#63380a, #030327);
     border-radius: 5px;
+}
+.star-rating {
+    color: #FFD700; /* Gold color */
+}
+.star-rating .fa-star {
+    cursor: pointer;
 }
 
 .testimonial .testimonial-item p {
-    color: #fee8e8;
-    font-size: 16px;
+    color: #eeee;
+    font-size: 1.1rem;
     font-weight: 400;
+    padding: 0.5rem 0.2rem;
 }
 
 .testimonial .testimonial-content h3 {
@@ -1221,11 +1229,11 @@ a:focus {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: #f5932b;
+    background: #764612;
 }
 
 .testimonial .owl-dot.active {
-    background: #2211b9;
+    background: #FFD700;
 }
 
 
