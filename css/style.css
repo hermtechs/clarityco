@@ -1236,6 +1236,33 @@ a:focus {
     background: #FFD700;
 }
 
+/* whatsapp button */
+.whatsapp-button {
+    position: fixed;
+    bottom: 4rem;
+    right: 0.8rem;
+    background-color: #25D366; /* WhatsApp green */
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+.whatsapp-button img {
+    width: 24px; /* Adjust size as needed */
+    height: 24px;
+}
+.whatsapp-button:hover {
+    background-color: #128C7E; /* Darker green for hover */
+}
+/* whatsapp button */
 
 /*******************************/
 /*********** Blog CSS **********/
