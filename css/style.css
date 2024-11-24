@@ -1240,7 +1240,7 @@ a:focus {
 .whatsapp-button {
     position: fixed;
     bottom: 4rem;
-    right: 0.8rem;
+    right: 0.6rem;
     background-color: #25D366; /* WhatsApp green */
     color: white;
     padding: 15px;
@@ -1253,11 +1253,7 @@ a:focus {
     align-items: center;
     justify-content: center;
     transition: background-color 0.3s;
-    z-index: 1000;
-}
-.whatsapp-button img {
-    width: 24px; /* Adjust size as needed */
-    height: 24px;
+    font-size: 24px; /* Icon size */
 }
 .whatsapp-button:hover {
     background-color: #128C7E; /* Darker green for hover */
