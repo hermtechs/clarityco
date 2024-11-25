@@ -750,8 +750,9 @@ a:focus {
 .feature .feature-item h3 {
     margin-bottom: 15px;
     font-size: 22px;
-    font-weight: 300;
-    color: #2211b9;
+    font-weight: 500;
+    color: #2616b2;
+
 }
 
 .feature .feature-item p {
