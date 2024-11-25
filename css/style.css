@@ -523,6 +523,14 @@ a:focus {
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
 }
+@media(max-width:400px){
+    .about .about-text h2{
+        font-size: 3rem;
+    }
+    .about .about-text h2 span{
+        font-size: 4rem;
+    }
+}
 
 .about .about-text p {
     font-size: 16px;
